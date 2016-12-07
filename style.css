@@ -1,6 +1,6 @@
 #turtle {
   height: 100px;
-  position: 50px;
+  position: absolute;
   bottom: 0px;
 }
 
