@@ -22,8 +22,8 @@ manyStars(100, 200, 200)
 function manyStars(distance, x, y) {
   for (size = distance; size > 0; size - 20) {
     star(size);
-    for (pos = x; 
-    var position = {x: x + 25, y: y}
+    var position = {x: x, y: y}
+    x = x + 25
   }
 }
 star (100);
