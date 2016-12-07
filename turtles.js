@@ -12,6 +12,7 @@ function turnLeft() {
 }
 
 function turnN(n){
+  console.log("n", n)
   heading = - (180*(n-2))/n
 }
 
