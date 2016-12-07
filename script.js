@@ -17,8 +17,13 @@ function star(distance) {
 
 star (100);
 
-goForward(20);
+var position = {x: 225, y: 180};
 
 star(80);
+
+var position = {x: 240, y: 160};
+
+star(60);
+
 
 
