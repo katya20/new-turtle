@@ -15,6 +15,7 @@ function star(distance) {
   }
 }
 
+function m
 star (100);
 
 var position = {x: 225, y: 180};
@@ -29,9 +30,10 @@ var position = {x: 275, y: 140};
 
 star(40);
 
-var position = {x: 300, y: 140};
+var position = {x: 300, y: 120};
 
-star(40);
+star(20);
+
 
 
 
