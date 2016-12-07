@@ -6,13 +6,6 @@ function polygon(distance, n) {
   }
 }
 
-polygon(100,180);
-//
-//n = 4;
-//
-//goForward(100);
-//turnN(n);
-//goForward(100);
-//turnN(n);
-//goForward(100);
-//turnN(n);
+polygon(5,19980);
+
+
