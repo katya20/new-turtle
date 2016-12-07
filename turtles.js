@@ -1,5 +1,5 @@
 var heading = 0
-var position = {x: 200, y: 400};
+var position = {x: 200, y: 200};
 var turtle = $("#turtle");
 var turtleCage = $(".turtle-cage")
 
@@ -43,10 +43,10 @@ function insertLine(start, angle, distance) {
     "left": start.x,
     "bottom": start.y,
     "width": distance,
-    height: "1px",
+    height: "5px",
     "transform-origin": "0 0 0",
     transform: "rotate(" + angle + "deg)",
-    background: "orange",
+    background: "pink",
     position: "absolute"
   })
   
