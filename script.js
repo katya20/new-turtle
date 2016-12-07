@@ -1,5 +1,8 @@
-
-function square(distance) {
+var n = 1;
+function polygon(distance, n) {
+n++;
 goForward(distance);
-turnLeft();
+turnN(n);
 }
+
+polygon(100,4);
