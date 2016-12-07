@@ -17,4 +17,8 @@ function star(distance) {
 
 star (100);
 
+goForward(20);
+
+star(80);
+
 
