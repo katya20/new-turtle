@@ -1,13 +1,7 @@
-var counter = 1;
+
 function polygon(distance, n) {
-  if (counter < n*2) {
-    counter++
-    goForward(distance);
-    turnN(n);
-    goForward(distance);
-    turnN(n);
-    goForward(distance);
-    turnN(n);
+  for (i = 1; i < n*2; i++) {
+
     goForward(distance);
     turnN(n);
   }
