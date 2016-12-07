@@ -1,11 +1,19 @@
-var x = 1;
+var counter = 1;
 function polygon(distance, n) {
-  if (x < n*2) {
-    x++;
+  if (counter < n*2) {
+    counter++
     goForward(distance);
     turnN(n);
-    window.setTimeout(polygon, 50)
   }
 }
 
-polygon(100,4);
+//polygon(50,4);
+
+
+
+goForward(100);
+turnN(n);
+goForward(100);
+turnN(n);
+goForward(100);
+turnN(n);
