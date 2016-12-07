@@ -15,8 +15,9 @@ function star(distance) {
   }
 }
 
-function manyStars(size) {
-  
+function manyStars(distance) {
+  for (size = distance; size > 0; si
+  star(size);
 }
 star (100);
 
