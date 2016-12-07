@@ -21,9 +21,17 @@ var position = {x: 225, y: 180};
 
 star(80);
 
-var position = {x: 240, y: 160};
+var position = {x: 250, y: 160};
 
 star(60);
+
+var position = {x: 275, y: 140};
+
+star(40);
+
+var position = {x: 300, y: 140};
+
+star(40);
 
 
 
