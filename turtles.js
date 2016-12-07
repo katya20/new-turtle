@@ -12,7 +12,7 @@ function turnLeft() {
 }
 
 function turnN(n){
-  
+  heading = heading + 
 }
 
 function goForward(distance) {    
