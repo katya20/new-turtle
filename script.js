@@ -9,7 +9,9 @@ function polygon(distance, n) {
 polygon(100,10);
 
 function star() {
-  for 9
+  for (i = 0; i < 5; i++){
+    
+  }
 }
 
 
