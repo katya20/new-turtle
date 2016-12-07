@@ -1,8 +1,5 @@
-goForward(100);
+
+function square(distance) {
+goForward(distance);
 turnLeft();
-goForward(100);
-turnLeft();
-goForward(100);
-turnLeft();
-goForward(100);
-turnLeft();
+}
