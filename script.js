@@ -15,7 +15,9 @@ function star(distance) {
   }
 }
 
-function m
+function manyStars(size) {
+  
+}
 star (100);
 
 var position = {x: 225, y: 180};
