@@ -53,6 +53,8 @@ function insertLine(start, angle, distance) {
   turtleCage.append(lineEl)
 }
 
-function starAngle() {
-  heading = heading - 
+function starAngle(distance) {
+  heading = heading - 36;
+  goForward(distance);
+  heading = heading + 108;
 }
