@@ -1,3 +1,5 @@
+var position = {x: 200, y: 200};
+
 
 function polygon(distance, n) {
   for (i = 0; i < n; i++) {
@@ -15,10 +17,12 @@ function star(distance) {
   }
 }
 
-function manyStars(distance) {
+manyStars(100, 
+
+function manyStars(distance, x, y) {
   for (size = distance; size > 0; size - 20) {
     star(size);
-    var position = {x: 225, y: 180
+    var position = {x: x, y: y}
   }
 }
 star (100);
