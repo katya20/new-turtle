@@ -4,16 +4,22 @@ function polygon(distance, n) {
     counter++
     goForward(distance);
     turnN(n);
+    goForward(distance);
+    turnN(n);
+    goForward(distance);
+    turnN(n);
+    goForward(distance);
+    turnN(n);
   }
 }
 
-//polygon(50,4);
-
-
-
-goForward(100);
-turnN(n);
-goForward(100);
-turnN(n);
-goForward(100);
-turnN(n);
+polygon(50,4);
+//
+//n = 4;
+//
+//goForward(100);
+//turnN(n);
+//goForward(100);
+//turnN(n);
+//goForward(100);
+//turnN(n);
