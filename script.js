@@ -6,6 +6,10 @@ function polygon(distance, n) {
   }
 }
 
-polygon(5,19980);
+polygon(100,10);
+
+function star() {
+  for 9
+}
 
 
