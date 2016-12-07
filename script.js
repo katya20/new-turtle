@@ -6,12 +6,15 @@ function polygon(distance, n) {
   }
 }
 
-polygon(100,10);
+//polygon(100,10);
 
-function star(dis) {
+function star(distance) {
   for (i = 0; i < 5; i++){
-    
+    goForward(distance);
+    starAngle(distance);
   }
 }
+
+star (100);
 
 
