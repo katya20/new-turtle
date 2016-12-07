@@ -17,12 +17,13 @@ function star(distance) {
   }
 }
 
-manyStars(100, 
+manyStars(100, 200, 200)
 
 function manyStars(distance, x, y) {
   for (size = distance; size > 0; size - 20) {
     star(size);
-    var position = {x: x, y: y}
+    for (pos = x; 
+    var position = {x: x + 25, y: y}
   }
 }
 star (100);
