@@ -6,7 +6,7 @@ function polygon(distance, n) {
   }
 }
 
-polygon(100,5);
+polygon(100,180);
 //
 //n = 4;
 //
