@@ -1,5 +1,5 @@
 x = 300
-y = 250
+y = 0
 var position = {x: x, y: y};
 
 function polygon(distance, n) {
@@ -8,6 +8,10 @@ function polygon(distance, n) {
     turnN(n);
   }
 }
+
+polygon(12,200);
+
+var position = {x: x, y: y};
 
 polygon(10,200);
 
@@ -29,7 +33,7 @@ polygon(2,200);
 
 var position = {x: x, y: y + 350};
 
-polygon(0.5,200);
+polygon(0,200);
 
 
 
