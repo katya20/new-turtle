@@ -11,8 +11,8 @@ function polygon(distance, n) {
 //
 //polygon(12,200);
 
-x = 0
-y = 0
+x = -200
+y = 600
 
 function Hell (size, distance, accuracy) {
   while (size > 0) {
