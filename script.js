@@ -10,15 +10,15 @@ function polygon(distance, n) {
 
 polygon(20,200);
 
-var position = {x: x, y: 220};
+var position = {x: x, y: 300};
 
 polygon(15,200);
 
-var position = {x: x, y: 240};
+var position = {x: x, y: 400};
 
 polygon(10,200);
 
-var position = {x: x, y: 260};
+var position = {x: x, y: 500};
 
 polygon(5,200);
 
