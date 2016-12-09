@@ -8,19 +8,19 @@ function polygon(distance, n) {
   }
 }
 
-polygon(20,360);
+polygon(20,200);
 
 var position = {x: 225, y: 180};
 
-polygon(15,360);
+polygon(15,200);
 
 var position = {x: 250, y: 160};
 
-polygon(10,360);
+polygon(10,200);
 
 var position = {x: 275, y: 140};
 
-polygon(5,360);
+polygon(5,200);
 
 //var position = {x: 300, y: 120};
 //
