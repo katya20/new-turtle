@@ -10,19 +10,19 @@ function polygon(distance, n) {
 
 polygon(10,200);
 
-var position = {x: x, y: 300};
+var position = {x: x, y: 270};
 
 polygon(8,200);
 
-var position = {x: x, y: 400};
+var position = {x: x, y: 340};
 
 polygon(6,200);
 
-var position = {x: x, y: 600};
+var position = {x: x, y: 410};
 
 polygon(4,200);
 
-var position = {x: 300, y: 725};
+var position = {x: x, y: 480};
 
 polygon(2,200);
 
