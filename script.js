@@ -17,7 +17,7 @@ function Hell (size, distance, accuracy) {
   while (size > 0) {
     y = y + (35*distance)
     size = size - distance
-    var position = {x: x, y: y};
+    var position = {x: 300, y: y};
     polygon(size,accuracy);
   }
 }
