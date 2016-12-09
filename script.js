@@ -24,7 +24,7 @@ function Hell (size, distance, accuracy) {
   }
 }
 
-Hell(10, 1, 360);
+Hell(20, 1, 200);
 //
 //var position = {x: x, y: y + 140};
 //
