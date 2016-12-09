@@ -8,32 +8,35 @@ function polygon(distance, n) {
     turnN(n);
   }
 }
+//
+//polygon(12,200);
 
-polygon(12,200);
 
+function Hell (size) {
 var position = {x: x, y: y};
 
 polygon(10,200);
 
 var position = {x: x, y: y+70};
 
-polygon(8,200);
+polygon(9,200);
 
 var position = {x: x, y: y + 140};
 
-polygon(6,200);
+polygon(8,200);
 
 var position = {x: x, y: y + 210};
 
-polygon(4,200);
+polygon(7,200);
 
 var position = {x: x, y: y + 280};
 
-polygon(2,200);
+polygon(6,200);
+}
 
-var position = {x: x, y: y + 350};
-
-polygon(0,200);
+//var position = {x: x, y: y + 350};
+//
+//polygon(0,200);
 
 
 
