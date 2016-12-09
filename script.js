@@ -11,7 +11,7 @@ function polygon(distance, n) {
 //
 //polygon(12,200);
 
-x = 300
+x = 0
 y = 0
 
 function Hell (size, distance, accuracy) {
@@ -53,14 +53,14 @@ function star(distance) {
 function manyStars(distance, size) {
   while (size > 0) {
     size = size-20
-    x = x + 25;
-    y = y - 20;
     position = {x: x, y: y};
     star(size);
+    x = x + 25;
+    y = y - 20;
   }
 }
 
-manyStars(20, 100)
+manyStars(100, 500)
 //star (100);
 //
 //var position = {x: 225, y: 180};
