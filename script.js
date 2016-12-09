@@ -50,31 +50,34 @@ function star(distance) {
 
 //manyStars(100, 200, 200)
 //
-//function manyStars(distance) {
-//  for (size = distance; size > 0; size = size - 20) {
-//    star(size);
-//    var x = x + 25;
-//    var y = y - 20;
-//    var position = {x: x, y: y};
-//  }
-//}
-star (100);
+function manyStars(distance, size) {
+  while (size > 0) {
+    size = size-20
+    star(size);
+    x = x + 25;
+    y = y - 20;
+    var position = {x: x, y: y};
+  }
+}
 
-var position = {x: 225, y: 180};
-
-star(80);
-
-var position = {x: 250, y: 160};
-
-star(60);
-
-var position = {x: 275, y: 140};
-
-star(40);
-
-var position = {x: 300, y: 120};
-
-star(20);
+manyStars(20, 30)
+//star (100);
+//
+//var position = {x: 225, y: 180};
+//
+//star(80);
+//
+//var position = {x: 250, y: 160};
+//
+//star(60);
+//
+//var position = {x: 275, y: 140};
+//
+//star(40);
+//
+//var position = {x: 300, y: 120};
+//
+//star(20);
 
 
 
