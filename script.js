@@ -10,6 +10,28 @@ function polygon(distance, n) {
 
 polygon(20,360);
 
+var position = {x: 225, y: 180};
+
+polygon(15,360);
+
+var position = {x: 250, y: 160};
+
+polygon(10,360);
+
+var position = {x: 275, y: 140};
+
+polygon(5,360);
+
+//var position = {x: 300, y: 120};
+//
+//polygon(20,360);
+
+
+
+
+
+
+
 function star(distance) {
   for (i = 0; i < 5; i++){
     goForward(distance);
