@@ -24,7 +24,7 @@ function Hell (size, distance, accuracy) {
   }
 }
 
-Hell(20, 1, 200);
+//Hell(20, 1, 200);
 //
 //var position = {x: x, y: y + 140};
 //
@@ -53,14 +53,14 @@ function star(distance) {
 function manyStars(distance, size) {
   while (size > 0) {
     size = size-20
-    star(size);
     x = x + 25;
     y = y - 20;
-    var position = {x: x, y: y};
+    position = {x: x, y: y};
+    star(size);
   }
 }
 
-manyStars(20, 30)
+manyStars(20, 100)
 //star (100);
 //
 //var position = {x: 225, y: 180};
