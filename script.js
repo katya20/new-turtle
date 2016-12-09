@@ -12,11 +12,11 @@ function polygon(distance, n) {
 
 x = 300
 y = 0
-var position = {x: x, y: y};
+
 function Hell (size, distance, accuracy) {
   while (size > 0) {
-    y = y + 35*distance
-    size = size + distance
+    y = y + (35*distance)
+    size = size - distance
     var position = {x: x, y: y};
     polygon(size,accuracy);
   }
