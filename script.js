@@ -12,11 +12,11 @@ function polygon(distance, n) {
 //polygon(12,200);
 
 
-function Hell (size, ) {
+function Hell (size, distance, accuracy) {
   
 var position = {x: x, y: y};
 
-polygon(10,200);
+polygon(10,accuracy);
 
 var position = {x: x, y: y+105};
 
@@ -29,6 +29,9 @@ polygon(4,200);
 var position = {x: x, y: y + 315};
 
 polygon(1,200);
+}
+
+Hell(10, 
 //
 //var position = {x: x, y: y + 140};
 //
