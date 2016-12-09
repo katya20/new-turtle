@@ -5,6 +5,7 @@ function polygon(distance, n) {
   for (i = 0; i < n; i++) {
     goForward(distance);
     turnN(n);
+    console.log(position)
   }
 }
 //
@@ -16,13 +17,14 @@ y = 0
 function Hell (size, distance, accuracy) {
   while (size > 0) {
     y = y + (35*distance)
+    console.log(y);
     size = size - distance
     var position = {x: 300, y: y};
     polygon(size,accuracy);
   }
 }
 
-Hell(10, 2, 200);
+Hell(10, 2, 10);
 //
 //var position = {x: x, y: y + 140};
 //
