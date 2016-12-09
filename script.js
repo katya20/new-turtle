@@ -1,5 +1,5 @@
 var position = {x: 200, y: 200};
-
+x = 200
 
 function polygon(distance, n) {
   for (i = 0; i < n; i++) {
@@ -10,15 +10,15 @@ function polygon(distance, n) {
 
 polygon(20,200);
 
-var position = {x: 225, y: 180};
+var position = {x: x, y: 220};
 
 polygon(15,200);
 
-var position = {x: 250, y: 160};
+var position = {x: x, y: 240};
 
 polygon(10,200);
 
-var position = {x: 275, y: 140};
+var position = {x: x, y: 260};
 
 polygon(5,200);
 

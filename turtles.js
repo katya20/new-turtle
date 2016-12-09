@@ -32,7 +32,7 @@ function goForward(distance) {
   },{
     complete : function() {
       insertLine(origPosition, origHeading, distance)
-    }, duration:0
+    }, duration:1
   })
 
 }
