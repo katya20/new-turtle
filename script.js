@@ -13,13 +13,13 @@ function polygon(distance, n) {
 x = 300
 y = 0
 
-function Hell (size, distance, accuracy) {
-  for (size > 0) {
-    y = y + 35*distance;
-    var position = {x: x, y: y};
-  polygon(size,accuracy);
-  }
-}
+//function Hell (size, distance, accuracy) {
+//  for (size > 0) {
+//    y = y + 35*distance
+//    var position = {x: x, y: y};
+//    polygon(size,accuracy);
+//  }
+//}
 
 Hell(10, 2, 200);
 //
