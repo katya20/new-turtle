@@ -26,6 +26,10 @@ var position = {x: x, y: 480};
 
 polygon(2,200);
 
+var position = {x: x, y: 550};
+
+polygon(0.5,200);
+
 
 
 
