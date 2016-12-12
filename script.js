@@ -43,6 +43,7 @@ function manyStars(distance, size) {
 x = 200
 y = 200
 function start () {
+  position = {x: x, y: y};
   turtle.animate({
     left: position.x, 
     bottom: position.y,
