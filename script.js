@@ -43,12 +43,14 @@ function manyStars(distance, size) {
 
 //manyStars(100, 500)
 function move (){
+  var origPosition = {x: position.x, y: position.y}; 
+  var origHeading = heading;
   turtle.animate({
   left: position.x, 
   bottom: position.y,
- },{
- complete : function() {
-  insertLine(origPosition, origHeading, distance)
+  },{
+  complete : function() {
+  insertLine(origPosition, origHeading, 50)
 }, duration:1
 })
 }
@@ -59,14 +61,7 @@ $("body").keydown(function(e) {
     console.log('go right');
     x = x + 50;
     position = {x: x, y: y};
-    turtle.animate({
-      left: position.x, 
-      bottom: position.y,
-    },{
-      complete : function() {
-        insertLine(origPosition, origHeading, distance)
-      }, duration:1
-    })
+    move()
     
 }
   if (e.keyCode == 37) {
