@@ -50,10 +50,19 @@ $("body").keydown(function(e) {
     position = {x: x, y: y};
     x = x + 50;
 }
-  if (e.keyCode == 39) {
-    console.log('go right');
+  if (e.keyCode == 37) {
+    console.log('go left');
+    position = {x: x - 50, y: y};
+  }
+  if (e.keyCode == 38) {
+    console.log('go up');
     position = {x: x, y: y};
-    x = x + 50;
+    y = y + 50;
+  }
+  if (e.keyCode == 37) {
+    console.log('go left');
+    position = {x: x - 50, y: y};
+  }
 })
 
 
