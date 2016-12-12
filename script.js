@@ -41,9 +41,10 @@ function manyStars(distance, size) {
   }
 }
 
+
 //manyStars(100, 500)
 
-$(window).keypress(function(e) {
+.keyup(function(e) {
   if (e.keyCode == 37) {
     console.log('go right');
     turnRight();
