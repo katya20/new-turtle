@@ -42,12 +42,35 @@ function manyStars(distance, size) {
 
 
 //manyStars(100, 500)
+//$("body").keydown(function(e) {
+//  console.log("hi");
+//  if (e.keyCode == 39) {
+//    console.log('go right');
+//    x = x + 50;
+//    position = {x: x, y: y};
+//    
+//}
+//  if (e.keyCode == 37) {
+//    console.log('go left');
+//    position = {x: x - 50, y: y};
+//  }
+//  if (e.keyCode == 38) {
+//    console.log('go up');
+//    position = {x: x, y: y};
+//    y = y + 50;
+//  }
+//  if (e.keyCode == 40) {
+//    console.log('go down');
+//    position = {x: x, y: y - 50};
+//  }
+//})
+
 $("body").keydown(function(e) {
   console.log("hi");
   if (e.keyCode == 39) {
     console.log('go right');
-    position = {x: x, y: y};
-    x = x + 50;
+    position.left() = 30;
+    
 }
   if (e.keyCode == 37) {
     console.log('go left');
