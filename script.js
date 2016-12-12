@@ -44,12 +44,13 @@ function manyStars(distance, size) {
 //manyStars(100, 500)
 
 $(window).keypress(function(e) {
-  if (e.keyCode == 32) {
-    console.log('Space pressed');
-    $(".bubble").hide();
-    if (e.keyCode == 39) {
-      pusheen.css("right", "400px");
-      console.log("right");
+  if (e.keyCode == 37) {
+    console.log('go right');
+    turnRight();
+    goForward(100);
+  if (e.keyCode == 39) {
+    pusheen.css("right", "400px");
+    console.log("right");
 
 
     }
