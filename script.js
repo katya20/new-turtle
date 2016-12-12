@@ -78,17 +78,20 @@ $("body").keydown(function(e) {
     console.log('go left');
     x = x - 50
     position = {x: x, y: y};
+    heading = 180
     move()
   }
   if (e.keyCode == 38) {
     console.log('go up');
-    position = {x: x, y: y};
     y = y + 50;
+    position = {x: x, y: y};
+    heading = 90;
     move()
   }
   if (e.keyCode == 40) {
     console.log('go down');
-    position = {x: x, y: y - 50};
+    y = y - 50;
+    position = {x: x, y: y};
     move()
   }
 })
