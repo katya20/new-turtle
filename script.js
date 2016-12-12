@@ -44,19 +44,12 @@ function manyStars(distance, size) {
 
 //manyStars(100, 500)
 
-$(".turtle-cage").keyup(function(e) {
-  if (e.keyCode == 37) {
+$(".turtle-cage").keyup( function () {
     console.log('go right');
     turnRight();
     goForward(100);
-  if (e.keyCode == 39) {
-    pusheen.css("right", "400px");
-    console.log("right");
-
-
-    }
-  }
-});
+}
+  )
 
 
 
