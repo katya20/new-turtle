@@ -69,6 +69,7 @@ $("body").keydown(function(e) {
   console.log("hi");
   if (e.keyCode == 39) {
     console.log('go right');
+    heading = 180;
     x = x + 50;
     position = {x: x, y: y};
     move()
@@ -76,20 +77,21 @@ $("body").keydown(function(e) {
 }
   if (e.keyCode == 37) {
     console.log('go left');
+    heading = 180;
     x = x - 50
     position = {x: x, y: y};
-    heading = 180
     move()
   }
   if (e.keyCode == 38) {
     console.log('go up');
+    heading = 90;
     y = y + 50;
     position = {x: x, y: y};
-    heading = 90;
     move()
   }
   if (e.keyCode == 40) {
     console.log('go down');
+    heading = 90;
     y = y - 50;
     position = {x: x, y: y};
     move()
