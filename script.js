@@ -50,6 +50,14 @@ $("body").keydown(function(e) {
     console.log('go right');
     x = x + 50;
     position = {x: x, y: y};
+    turtle.animate({
+      left: position.x, 
+      bottom: position.y,
+    },{
+      complete : function() {
+        insertLine(origPosition, origHeading, distance)
+      }, duration:1
+    })
     
 }
   if (e.keyCode == 37) {
