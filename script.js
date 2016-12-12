@@ -40,8 +40,7 @@ function manyStars(distance, size) {
   }
 }
 
-x = 100
-y = 100
+
 //manyStars(100, 500)
 $("body").keydown(function(e) {
   console.log("hi");
