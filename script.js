@@ -59,9 +59,9 @@ $("body").keydown(function(e) {
     position = {x: x, y: y};
     y = y + 50;
   }
-  if (e.keyCode == 37) {
-    console.log('go left');
-    position = {x: x - 50, y: y};
+  if (e.keyCode == 40) {
+    console.log('go down');
+    position = {x: x, y: y - 50};
   }
 })
 
