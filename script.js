@@ -42,7 +42,16 @@ function manyStars(distance, size) {
 
 
 //manyStars(100, 500)
-
+function move (){
+  turtle.animate({
+  left: position.x, 
+  bottom: position.y,
+ },{
+ complete : function() {
+  insertLine(origPosition, origHeading, distance)
+}, duration:1
+})
+}
 
 $("body").keydown(function(e) {
   console.log("hi");
