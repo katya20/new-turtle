@@ -9,8 +9,7 @@ function polygon(distance, n) {
   }
 }
 
-x = -200
-y = 600
+
 
 function Hell (size, distance, accuracy) {
   while (size > 0) {
@@ -41,14 +40,14 @@ function manyStars(distance, size) {
   }
 }
 
-
+x = 100
+y = 100
 //manyStars(100, 500)
 $("body").keydown(function(e) {
   console.log("hi");
   if (e.keyCode == 39) {
     console.log('go right');
-    x = x + 50
-    position = {x: x, y: y};
+    position = {x: x + 200, y: y};
   }})
 
 
