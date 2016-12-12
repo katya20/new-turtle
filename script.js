@@ -43,8 +43,6 @@ function manyStars(distance, size) {
 
 
 //manyStars(100, 500)
-console.log("hello
-            \");
 $(".turtle-cage").keydown(function(e) {
   console.log("hi");
   if (e.keyCode == 37) {
