@@ -47,8 +47,14 @@ $("body").keydown(function(e) {
   console.log("hi");
   if (e.keyCode == 39) {
     console.log('go right');
-    position = {x: x + 200, y: y};
-  }})
+    position = {x: x, y: y};
+    x = x + 50;
+}
+  if (e.keyCode == 39) {
+    console.log('go right');
+    position = {x: x, y: y};
+    x = x + 50;
+})
 
 
 
