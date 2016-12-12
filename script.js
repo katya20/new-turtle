@@ -8,8 +8,6 @@ function polygon(distance, n) {
     
   }
 }
-//
-//polygon(12,200);
 
 x = -200
 y = 600
@@ -25,21 +23,6 @@ function Hell (size, distance, accuracy) {
 }
 
 //Hell(20, 1, 200);
-//
-//var position = {x: x, y: y + 140};
-//
-//polygon(6,200);
-//}
-
-//var position = {x: x, y: y + 350};
-//
-//polygon(0,200);
-
-
-
-
-
-
 
 function star(distance) {
   for (i = 0; i < 5; i++){
@@ -48,8 +31,6 @@ function star(distance) {
   }
 }
 
-//manyStars(100, 200, 200)
-//
 function manyStars(distance, size) {
   while (size > 0) {
     size = size-20
@@ -60,24 +41,10 @@ function manyStars(distance, size) {
   }
 }
 
-manyStars(100, 500)
-//star (100);
-//
-//var position = {x: 225, y: 180};
-//
-//star(80);
-//
-//var position = {x: 250, y: 160};
-//
-//star(60);
-//
-//var position = {x: 275, y: 140};
-//
-//star(40);
-//
-//var position = {x: 300, y: 120};
-//
-//star(20);
+//manyStars(100, 500)
+
+
+
 
 
 
