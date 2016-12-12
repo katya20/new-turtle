@@ -40,10 +40,11 @@ function manyStars(distance, size) {
   }
 }
 
-
+x = 200
+y = 200
 //manyStars(100, 500)
 function move (){
-  var origPosition = {x: position.x, y: position.y}; 
+  var origPosition = {x:x, y: position.y}; 
   var origHeading = heading;
   turtle.animate({
   left: position.x, 
