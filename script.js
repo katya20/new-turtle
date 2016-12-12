@@ -43,12 +43,12 @@ function manyStars(distance, size) {
 
 
 //manyStars(100, 500)
-$(".turtle-cage").keydown(function(e) {
+$("body").keydown(function(e) {
   console.log("hi");
-  if (e.keyCode == 37) {
+  if (e.keyCode == 39) {
     console.log('go right');
-    turnRight();
-    goForward(100);
+    x = x + 50
+    position = {x: x, y: y};
   }})
 
 
