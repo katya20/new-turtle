@@ -44,7 +44,7 @@ function manyStars(distance, size) {
 
 //manyStars(100, 500)
 
-.keyup(function(e) {
+$(".turtle-cage").keyup(function(e) {
   if (e.keyCode == 37) {
     console.log('go right');
     turnRight();
